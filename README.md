@@ -2,7 +2,7 @@
 A live DJ audio mixing application written entirely in LabVIEW.
 
 Click the image below to see a short video of it in action.
-[![Dataflow DJ - Click for video](resources/Video/intro.gif?raw=true)](https://www.youtube.com/watch?v=ySS2l_KnNCI "Dataflow DJ - Click for video")
+[![Dataflow DJ - Click for video](resources/Screens/intro.gif?raw=true)](https://www.youtube.com/watch?v=ySS2l_KnNCI "Dataflow DJ - Click for video")
 
 ## Features
 * Live mixing of two audio tracks
@@ -108,7 +108,7 @@ If the built in LabVIEW sound VIs aren't working well (high latency or dropouts)
 If you're interested in some of the technical aspects of the project, read on...
 
 ## Project Background
-The project started life as a joke on my [@Dataflow_G twitter account](https://twitter.com/Dataflow_G). "Imagine a DJ interface written in LabVIEW! Ha ha!" So I mocked up a UI, added in some basic EQ filters and playback functions, and called it a day. Not as funny as I had pictured, though it was fun making it. It was messy, but it worked.
+The project started life as a joke on my [@Dataflow_G](https://twitter.com/Dataflow_G) twitter account. "Imagine a DJ interface written in LabVIEW! Ha ha!" So I mocked up a UI, added in some basic EQ filters and playback functions, and called it a day. Not as funny as I had pictured, though it was fun making it. It was messy, but it worked.
 
 After playing with it a little more, I wasn't happy with the audio glitches and high latency. Then feature creep set in.
 
@@ -124,7 +124,7 @@ It was at this stage I refactored the code, and set about making what I hoped wo
 ## Design
 The system is split into three main components - User Interface, Audio Processing, and Audio Output. The User Interface is responsible for all user input including keyboard shortcuts, and for feedback from the other system components (LED indicators, playback position, etc). The Audio Processing component is the heart of the application, and performs all of the audio manipulation in response to user inputs. Lastly the Audio Output manages setup and buffering of audio data to the system audio devices.
 
-![Function block diagram](resources/Software Design/function block diagram.png?raw=true "Function block diagram")
+![Function block diagram](resources/Software%20Design/function%20block%20diagram.png?raw=true "Function block diagram")
 
 ### User Interface
 At first glance Dataflow DJ doesn't look like LabVIEW. Gone are the all too familiar grey controls, replaced with a darker, simplified user interface. Below the surface though it's still all LabVIEW. Some controls have had the graphics replaced, while the rest have simply had a different colour palette applied.
