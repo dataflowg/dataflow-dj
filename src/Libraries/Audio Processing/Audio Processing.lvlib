@@ -13,6 +13,7 @@
 	<Item Name="Change Audio Speed.vi" Type="VI" URL="../Change Audio Speed.vi"/>
 	<Item Name="DBL To I16.vi" Type="VI" URL="../DBL To I16.vi"/>
 	<Item Name="I16 To DBL.vi" Type="VI" URL="../I16 To DBL.vi"/>
+	<Item Name="Mix Mono To Stereo.vi" Type="VI" URL="../Mix Mono To Stereo.vi"/>
 	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 	<Item Name="Value Cluster.ctl" Type="VI" URL="../Value Cluster.ctl"/>
 	<Item Name="Value Properties.ctl" Type="VI" URL="../Value Properties.ctl"/>
