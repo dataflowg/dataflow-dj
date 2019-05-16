@@ -10,6 +10,7 @@
 	<Item Name="Create Message Queue.vi" Type="VI" URL="../Create Message Queue.vi"/>
 	<Item Name="Message Cluster.ctl" Type="VI" URL="../Message Cluster.ctl"/>
 	<Item Name="Parse Control Label.vi" Type="VI" URL="../Parse Control Label.vi"/>
+	<Item Name="Send UI Limits.vi" Type="VI" URL="../Send UI Limits.vi"/>
 	<Item Name="Send UI Value Change.vi" Type="VI" URL="../Send UI Value Change.vi"/>
 	<Item Name="Send.vi" Type="VI" URL="../Send.vi"/>
 	<Item Name="Update UI.vi" Type="VI" URL="../Update UI.vi"/>
