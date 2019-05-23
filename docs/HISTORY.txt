@@ -1,0 +1,25 @@
+Dataflow DJ Release History
+---------------------------
++ New feature
+* Bug fix
+- Removed feature
+---------------------------
+
+
+
+v0.2.0           2019-05-22
+---------------------------
++ DAQmx hardware control
++ Tree based file browser
++ Drag and drop files from explorer
++ Right-click knob/slide to change value (release will revert to value prior to click)
++ Cue points auto saved to XML config, loaded when track loaded
++ Display cue point positions on waveform display
++ Upmix mono tracks to stereo
+* Limit control value ranges (prevent infinite inc/dec of controls)
+
+
+
+v0.1.0           2019-02-26
+---------------------------
++ Initial release
