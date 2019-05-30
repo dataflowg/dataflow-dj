@@ -12,11 +12,12 @@ v0.2.0           2019-05-22
 + DAQmx hardware control
 + Tree based file browser
 + Drag and drop files from explorer
++ EQ Filter to sweep low pass / high pass
 + Right-click knob/slide to change value (release will revert to value prior to click)
 + Cue points auto saved to XML config, loaded when track loaded
 + Display cue point positions on waveform display
 + Upmix mono tracks to stereo
-* Limit control value ranges (prevent infinite inc/dec of controls)
+* Limit control value ranges (prevent infinite +/- of controls via keyboard)
 
 
 
