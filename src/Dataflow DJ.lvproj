@@ -23,7 +23,8 @@
 			<Item Name="Keyboard Shortcut.ctl" Type="VI" URL="../Controls/Keyboard Shortcut.ctl"/>
 		</Item>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="Audio File Input.lvlib" Type="Library" URL="../Libraries/Audio Input/Audio File Input.lvlib"/>
+			<Item Name="Audio Engine.lvlib" Type="Library" URL="../Libraries/Audio Engine/Audio Engine.lvlib"/>
+			<Item Name="Audio File Input.lvlib" Type="Library" URL="../Libraries/Audio File Input/Audio File Input.lvlib"/>
 			<Item Name="Audio Output.lvlib" Type="Library" URL="../Libraries/Audio Output/Audio Output.lvlib"/>
 			<Item Name="Audio Processing.lvlib" Type="Library" URL="../Libraries/Audio Processing/Audio Processing.lvlib"/>
 			<Item Name="Config File.lvlib" Type="Library" URL="../Libraries/Config File/Config File.lvlib"/>
@@ -33,10 +34,23 @@
 			<Item Name="Tree Browser.lvlib" Type="Library" URL="../Libraries/Tree Browser/Tree Browser.lvlib"/>
 			<Item Name="User Interface.lvlib" Type="Library" URL="../Libraries/User Interface/User Interface.lvlib"/>
 		</Item>
+		<Item Name="Plugin Interfaces" Type="Folder">
+			<Item Name="Effect Interface.lvlibp" Type="LVLibp" URL="../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp">
+				<Item Name="Effect Interface.lvclass" Type="LVClass" URL="../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp/Effect Interface Class/Effect Interface.lvclass"/>
+			</Item>
+			<Item Name="Load Effect Plugins.vi" Type="VI" URL="../Plugin Interfaces/Load Effect Plugins.vi"/>
+			<Item Name="Plugin Interfaces.lvproj" Type="Document" URL="../Plugin Interfaces/Plugin Interfaces.lvproj"/>
+		</Item>
 		<Item Name="Plugins" Type="Folder">
-			<Item Name="Effects" Type="Folder"/>
-			<Item Name="Hardware" Type="Folder">
-				<Item Name="DAQmx.lvlib" Type="Library" URL="../Plugins/Hardware/DAQmx.lvlib"/>
+			<Item Name="Controllers" Type="Folder">
+				<Item Name="DAQmx.lvlib" Type="Library" URL="../Plugins/Controllers/DAQmx/DAQmx.lvlib"/>
+			</Item>
+			<Item Name="Effects" Type="Folder">
+				<Item Name="Effects Plugins.lvproj" Type="Document" URL="../Plugins/Effects/Effects Plugins.lvproj"/>
+				<Item Name="Flanger.lvlibp" Type="LVLibp" URL="../Plugins/Effects/Flanger.lvlibp">
+					<Item Name="Flanger.lvclass" Type="LVClass" URL="../Plugins/Effects/Flanger.lvlibp/Flanger Class/Flanger.lvclass"/>
+					<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="../Plugins/Effects/Flanger.lvlibp/1abvi3w/vi.lib/ptbypt/NI_PtbyPt.lvlib"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Scripts" Type="Folder"/>
@@ -44,8 +58,10 @@
 			<Item Name="Application Version.vi" Type="VI" URL="../SubVIs/Application Version.vi"/>
 			<Item Name="Mouse Monitor Terminate.vi" Type="VI" URL="../SubVIs/Mouse Monitor Terminate.vi"/>
 			<Item Name="Mouse Monitor.vi" Type="VI" URL="../SubVIs/Mouse Monitor.vi"/>
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../SubVIs/Post-Build Action.vi"/>
 			<Item Name="Shortcuts.vi" Type="VI" URL="../SubVIs/Shortcuts.vi"/>
 		</Item>
+		<Item Name="HISTORY.txt" Type="Document" URL="../../docs/HISTORY.txt"/>
 		<Item Name="icon.ico" Type="Document" URL="../../resources/Logo/icon.ico"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="README.txt" Type="Document" URL="../../docs/README.txt"/>
@@ -166,7 +182,9 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get Num Devices.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Get Num Devices.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
@@ -239,6 +257,7 @@
 				<Item Name="Sound Output Write (SGL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (SGL).vi"/>
 				<Item Name="Sound Output Write (U8).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (U8).vi"/>
 				<Item Name="Sound Output Write.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -303,14 +322,16 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{165C7118-9082-4D35-8300-7018D03EA01E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Dataflow DJ</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B78AECE6-C781-41AE-97A6-CBB41A90BBF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dataflow DJ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ/Dataflow DJ.exe</Property>
@@ -320,11 +341,11 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Root</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ</Property>
-				<Property Name="Destination[3].destName" Type="Str">Plugins</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ/Plugins</Property>
+				<Property Name="Destination[3].destName" Type="Str">Plugins (Effects)</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ/Plugins/Effects</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B720C7D-B8B3-45CA-8C96-2E2D49DEF0DA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D3972C7C-9412-4AA1-99D1-4455BD9820ED}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -333,7 +354,14 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/README.txt</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Plugins/Effects/Flanger.lvlibp</Property>
+				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/HISTORY.txt</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Dataflow G</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Dataflow DJ - DJing with LabVIEW</Property>
 				<Property Name="TgtF_internalName" Type="Str">Dataflow DJ</Property>
