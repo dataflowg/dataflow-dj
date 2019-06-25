@@ -46,6 +46,15 @@
 				<Item Name="DAQmx.lvlib" Type="Library" URL="../Plugins/Controllers/DAQmx/DAQmx.lvlib"/>
 			</Item>
 			<Item Name="Effects" Type="Folder">
+				<Item Name="Crusher.lvlibp" Type="LVLibp" URL="../Plugins/Effects/Crusher.lvlibp">
+					<Item Name="Crusher.lvclass" Type="LVClass" URL="../Plugins/Effects/Crusher.lvlibp/Crusher Class/Crusher.lvclass"/>
+					<Item Name="NI_AALPro.lvlib" Type="Library" URL="../Plugins/Effects/Crusher.lvlibp/1abvi3w/vi.lib/Analysis/NI_AALPro.lvlib"/>
+					<Item Name="NI_Gmath.lvlib" Type="Library" URL="../Plugins/Effects/Crusher.lvlibp/1abvi3w/vi.lib/gmath/NI_Gmath.lvlib"/>
+				</Item>
+				<Item Name="Echo.lvlibp" Type="LVLibp" URL="../Plugins/Effects/Echo.lvlibp">
+					<Item Name="Echo.lvclass" Type="LVClass" URL="../Plugins/Effects/Echo.lvlibp/Plugins/Effects/Echo/Echo Class/Echo.lvclass"/>
+					<Item Name="Globals.lvlib" Type="Library" URL="../Plugins/Effects/Echo.lvlibp/Libraries/Globals/Globals.lvlib"/>
+				</Item>
 				<Item Name="Effects Plugins.lvproj" Type="Document" URL="../Plugins/Effects/Effects Plugins.lvproj"/>
 				<Item Name="Flanger.lvlibp" Type="LVLibp" URL="../Plugins/Effects/Flanger.lvlibp">
 					<Item Name="Flanger.lvclass" Type="LVClass" URL="../Plugins/Effects/Flanger.lvlibp/Flanger Class/Flanger.lvclass"/>
@@ -210,7 +219,6 @@
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -330,7 +338,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B78AECE6-C781-41AE-97A6-CBB41A90BBF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dataflow DJ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ/Dataflow DJ.exe</Property>
@@ -344,7 +352,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ/Plugins/Effects</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E189F5E-D8BF-4988-B7A9-57C31E7E9638}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{634D5476-A3FF-47ED-A4A8-06A30B0BF713}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -360,7 +368,15 @@
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/HISTORY.txt</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Plugins/Effects/Echo.lvlibp</Property>
+				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Plugins/Effects/Crusher.lvlibp</Property>
+				<Property Name="Source[6].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Dataflow G</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Dataflow DJ - DJing with LabVIEW</Property>
 				<Property Name="TgtF_internalName" Type="Str">Dataflow DJ</Property>
