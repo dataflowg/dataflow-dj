@@ -1,6 +1,6 @@
 Dataflow DJ Release History
 ---------------------------
-+ New feature
++ New feature / enhancement
 * Bug fix
 - Removed feature
 ---------------------------
@@ -17,6 +17,7 @@ v0.2.0           2019-05-22
 + Right-click knob/slide to change value (release will revert to value prior to click)
 + Cue points auto saved to XML config, loaded when track loaded
 + Display cue point positions on waveform display
++ Reduce output latency by 50%
 * Upmix mono tracks to stereo
 * Limit control value ranges (prevent infinite +/- of controls via keyboard)
 

@@ -8,4 +8,5 @@
 
 </Property>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+	<Item Name="Debug.vi" Type="VI" URL="../Debug.vi"/>
 </Library>

@@ -10,6 +10,7 @@
 	<Item Name="Audio Output Config.ctl" Type="VI" URL="../Audio Output Config.ctl"/>
 	<Item Name="Audio Output Info.ctl" Type="VI" URL="../Audio Output Info.ctl"/>
 	<Item Name="Audio Output Queue Type.ctl" Type="VI" URL="../Audio Output Queue Type.ctl"/>
+	<Item Name="Format Audio For Output.vi" Type="VI" URL="../Format Audio For Output.vi"/>
 	<Item Name="Query WaveIO.vi" Type="VI" URL="../Query WaveIO.vi"/>
 	<Item Name="Run (lvsound2).vi" Type="VI" URL="../Run (lvsound2).vi"/>
 	<Item Name="Run (WaveIO).vi" Type="VI" URL="../Run (WaveIO).vi"/>
