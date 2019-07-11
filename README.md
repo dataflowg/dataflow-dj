@@ -16,7 +16,7 @@ Click the image below to see a short video of it in action.
 * Support MP3 and WAV audio formats
 
 ## Installation
-The LabVIEW 2018 32-bit (or later) Run-Time Engine needs to be installed prior to using Dataflow DJ. You can find the [direct download link here](https://download.ni.com/support/softlib/labview/labview_runtime/2018/Windows/f2/LVRTE2018_f2Patchstd.exe).
+The LabVIEW 2019 32-bit (or later) Run-Time Engine needs to be installed prior to using Dataflow DJ. You can find the [direct download link here](https://download.ni.com/support/nipkg/products/ni-l/ni-labview-2019-runtime-engine-x86/19.0/offline/ni-labview-2019-runtime-engine-x86_19.0.0_offline.iso).
 Once the RTE is installed, download the latest Dataflow DJ zip from the Releases page. It doesn't require installation, just unzip it and run `Dataflow DJ.exe`.
 
 ## Usage
