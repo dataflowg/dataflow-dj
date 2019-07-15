@@ -24,7 +24,7 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="minimp3_wrapper.h">
+    <ClInclude Include="audio_decoder_library_wrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="minimp3.h">
@@ -33,12 +33,24 @@
     <ClInclude Include="minimp3_ex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dr_flac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dr_mp3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uaac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_vorbis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="minimp3_wrapper.cpp">
+    <ClCompile Include="audio_decoder_library_wrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">

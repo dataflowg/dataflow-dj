@@ -9,7 +9,9 @@
 </Property>
 	<Item Name="Get File Extension (Reentrant).vi" Type="VI" URL="../Get File Extension (Reentrant).vi"/>
 	<Item Name="Load Async.vi" Type="VI" URL="../Load Async.vi"/>
+	<Item Name="Load FLAC.vi" Type="VI" URL="../Load FLAC.vi"/>
 	<Item Name="Load MP3.vi" Type="VI" URL="../Load MP3.vi"/>
+	<Item Name="Load Vorbis.vi" Type="VI" URL="../Load Vorbis.vi"/>
 	<Item Name="Load WAV.vi" Type="VI" URL="../Load WAV.vi"/>
 	<Item Name="Load.vi" Type="VI" URL="../Load.vi"/>
 </Library>

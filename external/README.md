@@ -1,3 +1,3 @@
 # External Libraries
-## minimp3 (minimp3_wrapper)
-A DLL wrapper around [minimp3](https://github.com/lieff/minimp3), a public domain, single-header MP3 decoder.
+## Audio Decoder Library Wrapper (audio_decoder_library_wrapper)
+A small DLL wrapper around a number of single header audio decoders.
