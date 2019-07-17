@@ -35,5 +35,6 @@
 	<Item Name="Insert Sub Panels.vi" Type="VI" URL="../Insert Sub Panels.vi"/>
 	<Item Name="Parse Key Press.vi" Type="VI" URL="../Parse Key Press.vi"/>
 	<Item Name="Remove Deadzone.vi" Type="VI" URL="../Remove Deadzone.vi"/>
+	<Item Name="Set Control Limits.vi" Type="VI" URL="../Set Control Limits.vi"/>
 	<Item Name="Sub Panels Cluster.ctl" Type="VI" URL="../Sub Panels Cluster.ctl"/>
 </Library>

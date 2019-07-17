@@ -15,7 +15,8 @@
 		<Item Name="Crusher.lvlib" Type="Library" URL="../Crusher/Crusher.lvlib"/>
 		<Item Name="Echo.lvlib" Type="Library" URL="../Echo/Echo.lvlib"/>
 		<Item Name="Effect Interface.lvlibp" Type="LVLibp" URL="../../../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp">
-			<Item Name="Effect Interface.lvclass" Type="LVClass" URL="../../../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp/Effect Interface Class/Effect Interface.lvclass"/>
+			<Item Name="Audio Processing.lvlib" Type="Library" URL="../../../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp/Libraries/Audio Processing/Audio Processing.lvlib"/>
+			<Item Name="Effect Interface.lvclass" Type="LVClass" URL="../../../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp/Plugin Interfaces/Effect Interface/Effect Interface Class/Effect Interface.lvclass"/>
 		</Item>
 		<Item Name="Flanger.lvlib" Type="Library" URL="../Flanger/Flanger.lvlib"/>
 		<Item Name="Plugin Interfaces.lvproj" Type="Document" URL="../../../Plugin Interfaces/Plugin Interfaces.lvproj"/>
@@ -51,7 +52,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C99CC64E-F84C-4C6F-A273-BC0A03029F1F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1CB7AB9A-661C-4274-8B86-69481AA310B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Flanger.lvlib</Property>
@@ -97,7 +98,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{248732C0-5B21-4595-B710-80AF24BA5475}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1CB7AB9A-661C-4274-8B86-69481AA310B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Flanger.lvlib</Property>
@@ -147,7 +148,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{24AB065F-F4AC-4379-93BD-F48E0FD43485}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1CB7AB9A-661C-4274-8B86-69481AA310B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Flanger.lvlib</Property>

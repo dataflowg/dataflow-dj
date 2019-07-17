@@ -14,7 +14,15 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Effect Interface.lvlib" Type="Library" URL="../Effect Interface/Effect Interface.lvlib"/>
 		<Item Name="Effects Plugins.lvproj" Type="Document" URL="../../Plugins/Effects/Effects Plugins.lvproj"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+			</Item>
+			<Item Name="Audio Processing.lvlib" Type="Library" URL="../../Libraries/Audio Processing/Audio Processing.lvlib"/>
+			<Item Name="Globals.lvlib" Type="Library" URL="../../Libraries/Globals/Globals.lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Effect Interface" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{32C1D880-C2E9-4D80-B814-89711F01502F}</Property>
@@ -38,7 +46,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{87F56DF3-5946-4260-8225-8B26ED0ECBE2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3BE57A03-1BCD-4D89-AC07-0760F5BBBA43}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Effect Interface.lvlib</Property>

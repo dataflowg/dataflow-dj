@@ -16,7 +16,7 @@
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Channel.lvclass" Type="LVClass" URL="../Classes/Channel/Channel.lvclass"/>
 			<Item Name="Deck.lvclass" Type="LVClass" URL="../Classes/Deck/Deck.lvclass"/>
-			<Item Name="Effect.lvclass" Type="LVClass" URL="../Classes/Effect/Effect.lvclass"/>
+			<Item Name="Effect Unit.lvclass" Type="LVClass" URL="../Classes/Effect Unit/Effect Unit.lvclass"/>
 			<Item Name="Mixer.lvclass" Type="LVClass" URL="../Classes/Mixer/Mixer.lvclass"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
@@ -36,9 +36,9 @@
 		</Item>
 		<Item Name="Plugin Interfaces" Type="Folder">
 			<Item Name="Effect Interface.lvlibp" Type="LVLibp" URL="../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp">
-				<Item Name="Effect Interface.lvclass" Type="LVClass" URL="../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp/Effect Interface Class/Effect Interface.lvclass"/>
+				<Item Name="Audio Processing.lvlib" Type="Library" URL="../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp/Libraries/Audio Processing/Audio Processing.lvlib"/>
+				<Item Name="Effect Interface.lvclass" Type="LVClass" URL="../Plugin Interfaces/Effect Interface/Effect Interface.lvlibp/Plugin Interfaces/Effect Interface/Effect Interface Class/Effect Interface.lvclass"/>
 			</Item>
-			<Item Name="Load Effect Plugins.vi" Type="VI" URL="../Plugin Interfaces/Load Effect Plugins.vi"/>
 			<Item Name="Plugin Interfaces.lvproj" Type="Document" URL="../Plugin Interfaces/Plugin Interfaces.lvproj"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
@@ -263,7 +263,6 @@
 				<Item Name="Sound Output Write (SGL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (SGL).vi"/>
 				<Item Name="Sound Output Write (U8).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (U8).vi"/>
 				<Item Name="Sound Output Write.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -331,7 +330,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B78AECE6-C781-41AE-97A6-CBB41A90BBF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">56</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dataflow DJ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ.exe</Property>

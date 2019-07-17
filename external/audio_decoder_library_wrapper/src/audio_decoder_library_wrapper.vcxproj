@@ -153,6 +153,7 @@
     <ClInclude Include="dr_mp3.h" />
     <ClInclude Include="minimp3.h" />
     <ClInclude Include="minimp3_ex.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="stb_vorbis.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -180,6 +181,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="audio_decoder_library_wrapper.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
