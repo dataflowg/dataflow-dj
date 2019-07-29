@@ -12,7 +12,6 @@
 // Ogg Vorbis defines + header
 #include "stb_vorbis.h"
 
-
 extern "C" __declspec(dllexport) int16_t * load_mp3(const char *file_name, int *num_samples, int *channels, int *sample_rate);
 extern "C" __declspec(dllexport) void free_mp3(int16_t *samples);
 
