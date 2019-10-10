@@ -301,7 +301,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B78AECE6-C781-41AE-97A6-CBB41A90BBF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">73</Property>
+				<Property Name="Bld_version.build" Type="Int">78</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dataflow DJ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ.exe</Property>
@@ -317,7 +317,7 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Plugins/Controllers</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0CE3B575-DC88-4293-941F-E4BF4814EB3A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D07A8489-3E9B-4ED2-8DB4-DCFD414531BE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -345,7 +345,15 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Plugins/Controllers/DAQmx.lvlibp</Property>
 				<Property Name="Source[7].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Libraries/Audio File Input.lvlib</Property>
+				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[8].type" Type="Str">Library</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Libraries/Audio File Input.lvlib/Load Async.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Dataflow G</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Dataflow DJ - DJing with LabVIEW</Property>
 				<Property Name="TgtF_internalName" Type="Str">Dataflow DJ</Property>
