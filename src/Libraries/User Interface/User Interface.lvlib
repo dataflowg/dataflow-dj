@@ -13,10 +13,13 @@
 		<Item Name="Knob.48px.ctl" Type="VI" URL="../Custom Graphics/Knob.48px.ctl"/>
 		<Item Name="Knob.276px.ctl" Type="VI" URL="../Custom Graphics/Knob.276px.ctl"/>
 		<Item Name="Knob.276px_Hole.ctl" Type="VI" URL="../Custom Graphics/Knob.276px_Hole.ctl"/>
+		<Item Name="Knob.Fill.48px.ctl" Type="VI" URL="../Custom Graphics/Knob.Fill.48px.ctl"/>
 		<Item Name="LED.Red.16px.ctl" Type="VI" URL="../Custom Graphics/LED.Red.16px.ctl"/>
 		<Item Name="Listbox.Browser.ctl" Type="VI" URL="../Custom Graphics/Listbox.Browser.ctl"/>
 		<Item Name="PictRing.DeckLabel.ctl" Type="VI" URL="../Custom Graphics/PictRing.DeckLabel.ctl"/>
 		<Item Name="Ring.Black.ctl" Type="VI" URL="../Custom Graphics/Ring.Black.ctl"/>
+		<Item Name="Slide.Fill.Horiz.ctl" Type="VI" URL="../Custom Graphics/Slide.Fill.Horiz.ctl"/>
+		<Item Name="Slide.Fill.Vert.ctl" Type="VI" URL="../Custom Graphics/Slide.Fill.Vert.ctl"/>
 		<Item Name="Slide.Horiz.ctl" Type="VI" URL="../Custom Graphics/Slide.Horiz.ctl"/>
 		<Item Name="Slide.LevelLEDs.ctl" Type="VI" URL="../Custom Graphics/Slide.LevelLEDs.ctl"/>
 		<Item Name="Slide.PlaybackPosition.ctl" Type="VI" URL="../Custom Graphics/Slide.PlaybackPosition.ctl"/>
@@ -33,6 +36,10 @@
 	<Item Name="Find Control Refs.vi" Type="VI" URL="../Find Control Refs.vi"/>
 	<Item Name="Format Sample To Time.vi" Type="VI" URL="../Format Sample To Time.vi"/>
 	<Item Name="Insert Sub Panels.vi" Type="VI" URL="../Insert Sub Panels.vi"/>
+	<Item Name="Knob Fill (One-Way).vi" Type="VI" URL="../Knob Fill (One-Way).vi"/>
+	<Item Name="Knob Fill (Two-Way).vi" Type="VI" URL="../Knob Fill (Two-Way).vi"/>
+	<Item Name="Knob Fill Wrapper.vi" Type="VI" URL="../Knob Fill Wrapper.vi"/>
+	<Item Name="Knob Fill.vi" Type="VI" URL="../Knob Fill.vi"/>
 	<Item Name="Parse Key Press.vi" Type="VI" URL="../Parse Key Press.vi"/>
 	<Item Name="Remove Deadzone.vi" Type="VI" URL="../Remove Deadzone.vi"/>
 	<Item Name="Set Control Limits.vi" Type="VI" URL="../Set Control Limits.vi"/>
