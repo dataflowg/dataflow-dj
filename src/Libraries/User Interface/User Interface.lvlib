@@ -38,10 +38,10 @@
 	<Item Name="Insert Sub Panels.vi" Type="VI" URL="../Insert Sub Panels.vi"/>
 	<Item Name="Knob Fill (One-Way).vi" Type="VI" URL="../Knob Fill (One-Way).vi"/>
 	<Item Name="Knob Fill (Two-Way).vi" Type="VI" URL="../Knob Fill (Two-Way).vi"/>
-	<Item Name="Knob Fill Wrapper.vi" Type="VI" URL="../Knob Fill Wrapper.vi"/>
 	<Item Name="Knob Fill.vi" Type="VI" URL="../Knob Fill.vi"/>
 	<Item Name="Parse Key Press.vi" Type="VI" URL="../Parse Key Press.vi"/>
 	<Item Name="Remove Deadzone.vi" Type="VI" URL="../Remove Deadzone.vi"/>
 	<Item Name="Set Control Limits.vi" Type="VI" URL="../Set Control Limits.vi"/>
 	<Item Name="Sub Panels Cluster.ctl" Type="VI" URL="../Sub Panels Cluster.ctl"/>
+	<Item Name="Update Control.vi" Type="VI" URL="../Update Control.vi"/>
 </Library>
