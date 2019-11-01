@@ -32,7 +32,7 @@ extern "C" __declspec(dllexport) void free_mp3(int16_t *samples)
 ///////////////////////////
 extern "C" __declspec(dllexport) drflac_int16 * load_flac(const char *file_name, drflac_uint64 *num_samples, unsigned int *channels, unsigned int *sample_rate)
 {
-	drflac_int16* pSampleData = drflac_open_file_and_read_pcm_frames_s16(file_name, channels, sample_rate, num_samples);
+	drflac_int16* pSampleData = drflac_open_file_and_read_pcm_frames_s16(file_name, channels, sample_rate, num_samples, NULL);
 	if (pSampleData == NULL)
 	{
 		// Failed to open and decode FLAC file.
@@ -43,7 +43,26 @@ extern "C" __declspec(dllexport) drflac_int16 * load_flac(const char *file_name,
 
 extern "C" __declspec(dllexport) void free_flac(drflac_int16 *samples)
 {
-	drflac_free(samples);
+	drflac_free(samples, NULL);
+}
+
+///////////////////////////
+// WAV decoding wrapper //
+///////////////////////////
+extern "C" __declspec(dllexport) drwav_int16 * load_wav(const char *file_name, drwav_uint64 *num_samples, unsigned int *channels, unsigned int *sample_rate)
+{
+	drwav_int16* pSampleData = drwav_open_file_and_read_pcm_frames_s16(file_name, channels, sample_rate, num_samples, NULL);
+	if (pSampleData == NULL)
+	{
+		// Failed to open and decode WAV file.
+	}
+
+	return pSampleData;
+}
+
+extern "C" __declspec(dllexport) void free_wav(drwav_int16 *samples)
+{
+	drwav_free((void *)samples, NULL);
 }
 
 /////////////////////////////////

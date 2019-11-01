@@ -302,7 +302,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B78AECE6-C781-41AE-97A6-CBB41A90BBF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">86</Property>
+				<Property Name="Bld_version.build" Type="Int">89</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dataflow DJ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ.exe</Property>
