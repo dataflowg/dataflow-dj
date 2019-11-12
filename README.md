@@ -20,16 +20,30 @@ Click the image below to see a short video of it in action.
 The LabVIEW 2019 32-bit (or later) Runtime Engine (RTE) needs to be installed prior to using Dataflow DJ. You can find the [direct download link here](https://download.ni.com/support/nipkg/products/ni-l/ni-labview-2019-runtime-engine-x86/19.0/offline/ni-labview-2019-runtime-engine-x86_19.0.0_offline.iso).
 Once the RTE is installed, download the latest Dataflow DJ zip from the Releases page. It doesn't require installation, just unzip it and run `Dataflow DJ.exe`.
 
-### DAQmx Runtime with Configuration Support
-*(Please note DAQmx is optional and not required to use Dataflow DJ.)*
+### Additional Drivers
+*(Please note these drivers are only for controller support, and are not required to use Dataflow DJ.)*
+Only the runtime driver variants are required to use Dataflow DJ with external hardware. If you already have the full drivers installed as part of a LabVIEW installation, you should have all you need. If you don't have the full drivers installed and still want to try out external hardware, you'll need one or both of the runtime drivers below.
 
-To use DAQmx hardware for input control, the DAQmx Runtime with Configuration Support needs to be installed. Install instructions For versions 19.0 and 19.1 are below, and require an active intetnet connection. If you prefer an offline installer (or don't want to use NI Package Manager), [version 18.6](https://download.ni.com/support/softlib/multifunction_daq/nidaqmx/18.6/Runtimes/NIDAQ1860f2Config.zip) of the DAQmx Runtime with Configuration Support will also work.
+Note that with version 19.0 onward of both DAQmx and VISA, National Instruments no longer offer a standalone runtime driver download. Installation of runtime drivers is gated through NI Package Manager, and requires careful selection of packages during installation. [This KB article](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z00000159txSAA) has more info, but the short version is if you just want the runtimes, *DESELECT* everything during install. Intuitive, I know.
+
+#### DAQmx Runtime with Configuration Support
+To use DAQmx hardware for input control, the DAQmx Runtime with Configuration Support needs to be installed. Install instructions For versions 19.0 and above are below, and require an active intetnet connection. If you prefer an offline installer (or don't want to use NI Package Manager), [version 18.6](https://download.ni.com/support/softlib/multifunction_daq/nidaqmx/18.6/Runtimes/NIDAQ1860f2Config.zip) of the DAQmx Runtime with Configuration Support will also work.
 
 1. Open NI Package Manager
 2. In the search box, type DAQmx and press Enter
 3. Select NI-DAQmx from the package list
 4. Select the version (19.1) and then press the Install button
 5. In the Additional Items window, press the Deselect All button, and then check the DAQmx Runtime with Configuration Support option
+6. Proceed through the installation steps, rebooting when prompted
+
+### NI-VISA Runtime (Arduino, chipKIT)
+Dev boards such as Arduino and chipKIT are supported through [LINX](https://www.labviewmakerhub.com/doku.php?id=libraries:linx:start) which required the NI-VISA Runtime needs to be installed. Install instructions For versions 19.0 and above are below, and require an active intetnet connection. If you prefer an offline installer (or don't want to use NI Package Manager), [version 18.5](https://download.ni.com/support/softlib/visa/NI-VISA/18.5/Windows/NIVISA1850runtime.zip) of the NI-VISA Runtime will also work.
+
+1. Open NI Package Manager
+2. In the search box, type NI-VISA and press Enter
+3. Select NI-VISA from the package list
+4. Select the version (19.5) and then press the Install button
+5. In the Additional Items window, press the Deselect All button
 6. Proceed through the installation steps, rebooting when prompted
 
 ## Usage

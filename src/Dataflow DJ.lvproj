@@ -88,6 +88,48 @@
 					<Item Name="DAQmx.lvclass" Type="LVClass" URL="../Plugins/Controllers/DAQmx.lvlibp/DAQmx Class/DAQmx.lvclass"/>
 					<Item Name="NI_AALBase.lvlib" Type="Library" URL="../Plugins/Controllers/DAQmx.lvlibp/1abvi3w/vi.lib/Analysis/NI_AALBase.lvlib"/>
 				</Item>
+				<Item Name="LINX.lvlibp" Type="LVLibp" URL="../Plugins/Controllers/LINX.lvlibp">
+					<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+					<Item Name="BuildHelpPath.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
+					<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+					<Item Name="Check Special Tags.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+					<Item Name="Clear Errors.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+					<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
+					<Item Name="Details Display Dialog.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
+					<Item Name="DialogType.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
+					<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="Error Code Database.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+					<Item Name="ErrWarn.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+					<Item Name="eventvkey.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
+					<Item Name="Find Tag.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
+					<Item Name="Format Message String.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
+					<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
+					<Item Name="General Error Handler.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
+					<Item Name="Get String Text Bounds.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+					<Item Name="Get Text Rect.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
+					<Item Name="GetHelpDir.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
+					<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+					<Item Name="LINX.lvclass" Type="LVClass" URL="../Plugins/Controllers/LINX.lvlibp/LINX Class/LINX.lvclass"/>
+					<Item Name="LMH-LINX.lvlib" Type="Library" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/MakerHub/LINX/LMH-LINX.lvlib"/>
+					<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+					<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+					<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+					<Item Name="NI_FileType.lvlib" Type="Library" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+					<Item Name="NI_LVConfig.lvlib" Type="Library" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/config.llb/NI_LVConfig.lvlib"/>
+					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+					<Item Name="Not Found Dialog.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
+					<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+					<Item Name="Set Bold Text.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+					<Item Name="Set String Value.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
+					<Item Name="Simple Error Handler.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
+					<Item Name="TagReturnType.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+					<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+					<Item Name="Three Button Dialog.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
+					<Item Name="Trim Whitespace.vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+					<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+					<Item Name="whitespace.ctl" Type="VI" URL="../Plugins/Controllers/LINX.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+				</Item>
 			</Item>
 			<Item Name="Effects" Type="Folder">
 				<Item Name="Crusher.lvlibp" Type="LVLibp" URL="../Plugins/Effects/Crusher.lvlibp">
@@ -107,6 +149,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Application Version.vi" Type="VI" URL="../SubVIs/Application Version.vi"/>
 			<Item Name="Check DAQmx Installed.vi" Type="VI" URL="../SubVIs/Check DAQmx Installed.vi"/>
+			<Item Name="Check VISA Installed.vi" Type="VI" URL="../SubVIs/Check VISA Installed.vi"/>
 			<Item Name="Mouse Monitor Terminate.vi" Type="VI" URL="../SubVIs/Mouse Monitor Terminate.vi"/>
 			<Item Name="Mouse Monitor.vi" Type="VI" URL="../SubVIs/Mouse Monitor.vi"/>
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../SubVIs/Post-Build Action.vi"/>
@@ -302,7 +345,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B78AECE6-C781-41AE-97A6-CBB41A90BBF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">89</Property>
+				<Property Name="Bld_version.build" Type="Int">97</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dataflow DJ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dataflow DJ.exe</Property>
@@ -318,12 +361,16 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Plugins/Controllers</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D07A8489-3E9B-4ED2-8DB4-DCFD414531BE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9951BA0D-1C13-4A4A-9F57-E9796CF6094B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Plugins/Controllers/LINX.lvlibp</Property>
+				<Property Name="Source[10].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/README.txt</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -354,7 +401,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Libraries/Audio File Input.lvlib/Load Async.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 				<Property Name="TgtF_companyName" Type="Str">Dataflow G</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Dataflow DJ - DJing with LabVIEW</Property>
 				<Property Name="TgtF_internalName" Type="Str">Dataflow DJ</Property>
