@@ -21,7 +21,7 @@ Click the image below to see a short video of it in action.
 The LabVIEW 2019 32-bit (or later) Runtime Engine (RTE) needs to be installed prior to using Dataflow DJ. You can find the [direct download link here](https://download.ni.com/support/nipkg/products/ni-l/ni-labview-2019-runtime-engine-x86/19.0/offline/ni-labview-2019-runtime-engine-x86_19.0.0_offline.iso).
 Once the RTE is installed, download the latest Dataflow DJ zip from the Releases page. It doesn't require installation, just unzip it and run `Dataflow DJ.exe`.
 
-### Additional Drivers
+### Additional Drivers For Hardware Control
 *(Please note these drivers are only for controller support, and are not required to use Dataflow DJ.)*
 Only the runtime driver variants are required to use Dataflow DJ with external hardware. If you already have the full drivers installed as part of a LabVIEW installation, you should have all you need. If you don't have the full drivers installed and still want to try out external hardware, you'll need one or both of the runtime drivers below.
 
@@ -121,6 +121,8 @@ Shortcut | Action
 
 ### DAQmx Hardware Control
 If you have a DAQmx device, this can be used to control some or all of the input functions in Dataflow DJ. All inputs are configured as Global Virtual Channels which have scaling enabled using NI MAX. Follow the steps below to add a channel for the desired function.
+
+*An example DAQmx config is provided in `Dataflow DJ\Plugins\Controllers\DAQmx.ini`. This can be imported into NI MAX and modified as appropriate.*
 
 1. Open NI MAX, and check your hardware is listed under Devices and Interfaces
 2. Right-click on Scales, then create new. A scale is used to scale the input range to 0-127. For example a 0-5V range will be scaled and read by Dataflow DJ in the range 0-127.

@@ -335,7 +335,7 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Plugins/Controllers</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F8B36C03-86AB-43E1-8A66-FE96CE80C75F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{21FA28E1-0BE2-4972-B307-2ACE97F90DDD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
