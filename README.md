@@ -2,7 +2,7 @@
 A live DJ audio mixing application written entirely in LabVIEW.
 
 Click the image below to see a short video of it in action.
-[![Dataflow DJ - Click for video](resources/Screens/intro.gif?raw=true)](https://www.youtube.com/watch?v=ySS2l_KnNCI "Dataflow DJ - Click for video")
+[![Dataflow DJ - Click for video](resources/Screens/intro.gif?raw=true)](https://www.youtube.com/watch?v=x0_bb5RgX-8 "Dataflow DJ - Click for video")
 
 ## Features
 * Live mixing of two audio tracks
@@ -236,9 +236,9 @@ AI5  = EffectUnit2_Effect1_Value1
 * ...and many more!
 
 ## LabVIEW Source Code
-All code is saved in LabVIEW 2019, with an (untested) version saved in LabVIEW 2013 available with the release. The project does not require any external LabVIEW libraries.
+All code is saved in LabVIEW 2019. The project does not require any external LabVIEW libraries.
 
-If the built in LabVIEW sound VIs aren't working well (high latency or dropouts), the project also has hooks for using the [WaveIO soundcard interface](https://www.zeitnitz.eu/scms/waveio) library. Unzip the library to `external\waveio_108`, then set the WAVEIO conditional symbol for the project to TRUE.
+If the built in LabVIEW sound VIs aren't working well (high latency, dropouts, or glitchy sounds), the project also has hooks for using the [WaveIO soundcard interface](https://www.zeitnitz.eu/scms/waveio) library. Unzip the library to `external\waveio_108`, then set the WAVEIO conditional symbol for the project to TRUE.
 
 If you're interested in some of the technical aspects of the project, read on...
 
