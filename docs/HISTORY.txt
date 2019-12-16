@@ -1,0 +1,37 @@
+Dataflow DJ Release History
+---------------------------
++ New feature / enhancement
+* Bug fix
+- Removed feature
+---------------------------
+
+
+
+v0.2.0           2019-12-13
+---------------------------
++ Update to LabVIEW 2019
++ Plugin framework for hardware controllers
++ DAQmx hardware plugin
++ LINX (Arduino) hardware plugin
++ Plugin framework for effects
++ Updated effects unit (allows any effect in any slot, multiples of same effect)
++ Knob and slider visual fill effect
++ Tree based file browser
++ Drag and drop files from explorer
++ FLAC and Ogg Vorbis file support (via dr_flac and stb_vorbis libraries)
++ Replace lvsound2 WAV loading with dr_wav library
++ EQ Filter to sweep low pass / high pass
++ Right-click knob/slide to change value (release will revert to value prior to click)
++ Cue points auto saved to XML config, loaded when track loaded
++ Display cue point positions on waveform display
++ Reduce output latency by 23ms (1024 samples @ 44.1kHz)
+* Resample non-44.1kHz tracks on-the-fly, not on load (much faster + fixes out of memory errors)
+* Show correct time remaining based on deck pitch
+* Upmix mono tracks to stereo
+* Limit control value ranges (prevent infinite +/- of controls via keyboard)
+
+
+
+v0.1.0           2019-02-26
+---------------------------
++ Initial release
