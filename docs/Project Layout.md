@@ -36,6 +36,7 @@ Effect Interface.lvlibp | Audio Processing.lvlibp
 PPL | Dependencies
 ----|-------------
 DAQmx.lvlibp | Messaging.lvlibp, Controller Interface.lvlibp
+LINX.lvlibp | Messaging.lvlibp, Controller Interface.lvlibp
 Crusher.lvlibp | Audio Processing.lvlibp
 Echo.lvlibp | Audio Processing.lvlibp, Globals.lvlibp
 Flanger.lvlibp | Audio Processing.lvlibp

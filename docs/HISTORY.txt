@@ -7,10 +7,12 @@ Dataflow DJ Release History
 
 
 
-v0.2.0           2019-07-17
+v0.2.0           2019-12-13
 ---------------------------
 + Update to LabVIEW 2019
-+ DAQmx hardware control
++ Plugin framework for hardware controllers
++ DAQmx hardware plugin
++ LINX (Arduino) hardware plugin
 + Plugin framework for effects
 + Updated effects unit (allows any effect in any slot, multiples of same effect)
 + Knob and slider visual fill effect

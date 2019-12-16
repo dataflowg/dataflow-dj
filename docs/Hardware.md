@@ -10,5 +10,8 @@ Dataflow DJ supports NI's core data acquisition driver, DAQmx. This is done thro
 
 The global channels can be assigned across multiple devices, and internally a separate task for each device is automatically created. The AI channels are run with the default timing source, while DI channels are sampled on demand. This basic sampling configuration should work across almost all DAQmx capable devices. More advanced sampling is offered by DAQmx (slaved timing sources across devices, digital IO change detection events), but these features are limited to more expensive hardware. In this case the target use case is the cheaper NI USB-600x series devices.
 
+## LINX (Arduino)
+Dataflow DJ also supports the LINX addon library, which supports a number of low cost development boards such as Arduino. This is handled through a `LINX.ini` file located in the `Plugins\Controllers` folder.
+
 ## MIDI
 Coming soon.
