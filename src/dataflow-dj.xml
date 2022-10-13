@@ -1,0 +1,48 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<Cluster>
+<Name>Config</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Track Info</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Track Info</Name>
+<NumElts>7</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<String>
+<Name>Title</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Length (Samples)</Name>
+<Val></Val>
+</I32>
+<I32>
+<Name>Channels</Name>
+<Val></Val>
+</I32>
+<I32>
+<Name>Sample Rate (Hz)</Name>
+<Val></Val>
+</I32>
+<DBL>
+<Name>BPM</Name>
+<Val></Val>
+</DBL>
+<Array>
+<Name>Cue Points (Samples)</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numeric</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+</Cluster>
+</LVData>
